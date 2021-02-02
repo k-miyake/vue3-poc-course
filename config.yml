@@ -1,0 +1,16 @@
+title: vue3-poc
+description: Learning Lab 検証用コース
+template:
+  repo: vue3-poc-template
+  name: vue3-poc
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
