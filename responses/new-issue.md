@@ -1,1 +1,1 @@
-Welcome to this course!
+@{{ user.login }} to this course!
