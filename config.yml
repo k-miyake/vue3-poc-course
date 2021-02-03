@@ -16,4 +16,3 @@ steps:
       - type: closeIssue
       - type: respond
         with: next-issue.md
-        issue: Next Issue
