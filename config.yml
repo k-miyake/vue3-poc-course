@@ -15,10 +15,10 @@ steps:
     actions:
       - type: closeIssue
   - title: Second step
+    description: 2番目のステップ
+    event: issues.closed
+    link: '{{ repoUrl }}/issues'
     actions:
       - type: createIssue
         title: A new issue
         body: new-issue.md
-    description: 2番目のステップ
-    link: '{{ repoUrl }}Issues'
-    event: issues.closed
