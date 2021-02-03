@@ -13,6 +13,5 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
       - type: respond
         with: next-issue.md
