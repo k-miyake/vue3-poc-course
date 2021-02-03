@@ -17,11 +17,3 @@ steps:
       - type: respond
         with: next-issue.md
         issue: Next Issue
-  - title: Second step
-    description: 2番目のステップ
-    event: issues.closed
-    link: '{{ repoUrl }}/issues'
-    actions:
-      - type: createIssue
-        title: A new issue
-        body: new-issue.md
