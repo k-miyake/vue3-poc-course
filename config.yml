@@ -11,7 +11,7 @@ steps:
   - title: First step
     description: The first step in your course
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         with: next-issue.md
