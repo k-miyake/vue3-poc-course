@@ -11,7 +11,7 @@ before:
       first_issue_url: '{{ result.data.html_url }}'
 steps:
   - title: First step
-    description: The first step in your course
+    description: The first step
     event: issues.assigned
     link: '{{ store.first_issue_url }}'
     actions:
