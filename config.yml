@@ -15,8 +15,5 @@ steps:
     event: issues.assigned
     link: '{{ store.first_issue_url }}'
     actions:
-      - type: createIssue
-        title: Second Issue
-        body: next-issue.md
       - type: respond
         with: next-issue.md
