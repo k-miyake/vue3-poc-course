@@ -7,11 +7,13 @@ before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
+    store:
+      first_issue_url: '{{ result.data.html_url }}'
 steps:
   - title: First step
     description: The first step in your course
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ store.first_issue_url }}'
     actions:
       - type: respond
         with: next-issue.md
